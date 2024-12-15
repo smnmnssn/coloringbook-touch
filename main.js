@@ -24,15 +24,6 @@ document.querySelectorAll(".color-btn").forEach(button => {
 });
 
 
-
-
-
-
-
-
-
-
-
 canvas.addEventListener("touchstart", function(ev) {
   const touch = ev.touches[0]; 
   const x = touch.clientX;
@@ -42,7 +33,6 @@ canvas.addEventListener("touchstart", function(ev) {
   ctx.moveTo(x, y);
   
 });
-
 
 
 canvas.addEventListener("touchmove", function(ev) {
